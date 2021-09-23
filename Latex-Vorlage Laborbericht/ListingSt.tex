@@ -1,0 +1,32 @@
+\usepackage[dvipsnames]{xcolor}
+
+% ST-Code Listinging Defintion
+% Farbe für Zahlen funktoniert nicht
+\lstdefinelanguage{ST} 
+{ 
+   % list of keywords 
+   morekeywords={ 
+      case,of,if,elsif, else, then,end_if,end_case,super,function_block,extends,var, 
+      constant, byte,,end_var,var_input, real,bool,var_output, 
+      dint,udint,word,dword,array, of,uint,not,adr, at, program, not, and, or,function, end_function, end_program
+   }, 
+   otherkeywords={ 
+      :, :=, <>,;,\,.,\[,\],\^ 
+   }, 
+   sensitive=false, 
+   morecomment=[l]{//}, 
+   morecomment=[s]{(*}{*)}, 
+   morestring=[b]" 
+   morestring=[b]'   
+} 
+
+\lstset{ 
+   language=ST, 
+   numbers=left, 
+   numberstyle=\color{purple}, 
+   keywordstyle=\color{blue}, 
+   commentstyle=\color{OliveGreen}, 
+   stringstyle=\color{yellow}, 
+   tabsize=3,
+   basicstyle=\scriptsize\ttfamily
+} 

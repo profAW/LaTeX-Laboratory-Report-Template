@@ -1,0 +1,50 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Kuchling.2014}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a1cf9f54e99118adac80e7ddfa4190a6}{%
+           family={Kuchling},
+           familyi={K\bibinitperiod},
+           given={Horst\bibnamedelima 1923-2021},
+           giveni={H\bibinitperiod\bibinitdelim 1\bibinithyphendelim 2\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Fachbuchverlag Leipzig im Carl-Hanser-Verlag}%
+      }
+      \strng{namehash}{a1cf9f54e99118adac80e7ddfa4190a6}
+      \strng{fullhash}{a1cf9f54e99118adac80e7ddfa4190a6}
+      \strng{bibnamehash}{a1cf9f54e99118adac80e7ddfa4190a6}
+      \strng{authorbibnamehash}{a1cf9f54e99118adac80e7ddfa4190a6}
+      \strng{authornamehash}{a1cf9f54e99118adac80e7ddfa4190a6}
+      \strng{authorfullhash}{a1cf9f54e99118adac80e7ddfa4190a6}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{21., aktualisierte Auflage, Jubiläumsausgabe 50 Jahre}
+      \field{title}{Taschenbuch der Physik mit zahlreichen Tabellen}
+      \field{year}{2014}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

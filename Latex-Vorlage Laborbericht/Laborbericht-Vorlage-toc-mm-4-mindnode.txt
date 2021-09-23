@@ -1,0 +1,9 @@
+1 Einleitung
+2 Lösungsweg
+	  2.1 Formel
+	  2.2 Code
+3 Lösung
+4 Reflektion
+5 Quellen
+6 Anhang
+7 Anpassung auf Basis des Feedbacks
